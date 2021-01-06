@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+        <solid android:color="#488"/>
+            <corners android:radius="500dp"/>
+            <gradient
+                android:startColor="#DDE62865"
+                android:endColor="#ED4B6C"
+                android:type="linear" />
+        </shape>
+
+    </item>
+    <item>
+        <animated-selector
+            android:fromId="@+id/accessibility_custom_action_0"
+            android:toId="@+id/accessibility_custom_action_15"/>
+    </item>
+</level-list>
